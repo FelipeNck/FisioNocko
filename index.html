@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FisioNocko</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Ícone do menu hamburguer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <header>
+        <div>
+        <div class="logo">Fisio<span>Nocko</span></div>
+        <button class="mobile-menu-toggle" aria-label="Abrir menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#especialidades">Especialidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+             </ul>
+        </nav>
+        </div>
+    </header>
+
+    <!-- Seção principal -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>FisioNocko</h1>
+            <p>Fisioterapia especializada em dor crônica e reabilitação funcional</p>
+            <div class="buttons">
+                <a href="#" class="btn-primary">Conheça nossos tratamentos</a>
+                <a href="agendar.php" class="btn-secondary">Agende sua consulta</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section class="about-section" id="sobre">
+        <div class="container">
+            <h2 class="section-title">Patricia Nocko</h2>
+            <h3 class="section-subtitle">Fisioterapeuta Especializada</h3>
+            <div class="title-underline sobre"></div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="./img/fisionocko.jpg" alt="Patricia Nocko, Fisioterapeuta">
+                </div>
+                
+                <div class="about-text">
+                    <p>Patricia Nocko é fisioterapeuta com 15 anos de experiência em reabilitação funcional musculoesquelética, traumato-ortopédica e lesões esportivas. Atualmente, está se especializando em dor pela USP, com foco em neurociência da dor e intervenções baseadas em evidência.</p>
+                    
+                    <p>À frente da clínica FisioNocko, no Rio de Janeiro, Patricia direciona sua prática para ajudar pessoas que convivem com dor crônica a recuperarem a autonomia e a confiança no próprio corpo.</p>
+                    
+                    <p>Sua atuação combina educação em dor e movimento consciente como ferramentas essenciais para o tratamento, sempre com base na ciência atual e no respeito à trajetória de cada paciente.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">15+ anos de experiência</div>
+                        <div class="feature-item">Especialista em dor crônica</div>
+                        <div class="feature-item">Abordagem baseada em evidências</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Especialidades -->
+    <section class="specialties-section" id="especialidades">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossas Especialidades</h2>
+                <div class="title-underline"></div>
+            </div>
+            <p class="section-description">Oferecemos tratamentos personalizados para diversas condições, com foco especial em dor crônica e reabilitação funcional.</p>
+            
+            <div class="specialties-container">
+                    <!-- 1. Dor Crônica -->
+                    <div class="specialty-card">
+                        <div class="specialty-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9333ea" width="24" height="24">
+                                <path d="M12 2L4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5l-8-3zm-1.06 13.54L7.4 12l1.41-1.41 2.12 2.12 4.24-4.24 1.41 1.41-5.64 5.66z"/>
+                            </svg>
+                        </div>
+                        <h3 class="specialty-name">Dor Crônica</h3>
+                        <div class="specialty-content">
+                            <p>Tratamento especializado para pessoas que convivem com dores persistentes há mais de 3 meses.</p>
+                            <div class="specialty-examples">
+                                <p><strong>Exemplos:</strong> Fibromialgia, dor lombar crônica, enxaqueca, dor neuropática, síndrome da dor miofascial.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. Traumato-ortopedia -->
+                    <div class="specialty-card">
+                        <div class="specialty-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9333ea">
+                                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                            </svg>
+                        </div>
+                        <h3 class="specialty-name">Traumato-ortopedia</h3>
+                        <div class="specialty-content">
+                            <p>Reabilitação de lesões musculoesqueléticas e pós-cirúrgicas.</p>
+                            <div class="specialty-examples">
+                                <p><strong>Exemplos:</strong> Recuperação pós-cirúrgica, tendinites, bursites, artrose, lesões ligamentares, fraturas.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3. Fisioterapia Esportiva -->
+                    <div class="specialty-card">
+                        <div class="specialty-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9333ea">
+                                <path d="M7 2v11h3v9l7-12h-4l3-8z"/>
+                            </svg>
+                        </div>
+                        <h3 class="specialty-name">Fisioterapia Esportiva</h3>
+                        <div class="specialty-content">
+                            <p>Tratamento e prevenção de lesões relacionadas à prática esportiva.</p>
+                            <div class="specialty-examples">
+                                <p><strong>Exemplos:</strong> Entorses, lesões musculares, tendinopatias, síndrome do impacto, pubalgia, fascite plantar.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4. Escoliose -->
+                    <div class="specialty-card">
+                        <div class="specialty-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#9333ea">
+                                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="specialty-name">Escoliose</h3>
+                        <div class="specialty-content">
+                            <p>Tratamento conservador para escoliose e outras alterações posturais.</p>
+                            <div class="specialty-examples">
+                                <p><strong>Abordagem:</strong> Exercícios específicos, reeducação postural, fortalecimento muscular e orientações para atividades diárias.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Seção Abordagem -->
+    <section class="approach-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title-white">Nossa Abordagem</h2>
+                <div class="title-underline-white"></div>
+            </div>
+            
+            <p class="section-intro">Na FisioNocko, acreditamos que o tratamento eficaz da dor crônica vai além das técnicas convencionais. Nossa abordagem é baseada em evidências científicas e personalizada para cada paciente.</p>
+            
+            <div class="approach-grid">
+                <!-- Educação em Dor -->
+                <div class="approach-card">
+                    <div class="approach-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="#9333ea" d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="approach-title">Educação em Dor</h3>
+                    <div class="approach-content">
+                        <p>Compreender os mecanismos da dor é fundamental para o tratamento. Ensinamos nossos pacientes sobre como o cérebro processa a dor e como isso pode influenciar sua recuperação.</p>
+                    </div>
+                </div>
+                
+                <!-- Movimento Consciente -->
+                <div class="approach-card">
+                    <div class="approach-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="#9333ea" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.03 0 3.8-1.11 4.75-2.75.19-.33-.05-.75-.44-.75H7.69c-.39 0-.63.42-.44.75.95 1.64 2.72 2.75 4.75 2.75z"/>
+                    </div>
+                    <h3 class="approach-title">Movimento Consciente</h3>
+                    <div class="approach-content">
+                        <p>Desenvolvemos programas de exercícios personalizados que respeitam os limites do paciente e promovem a reconexão com o corpo de forma segura e gradual.</p>
+                    </div>
+                </div>
+                
+                <!-- Tratamento Individualizado -->
+                <div class="approach-card">
+                    <div class="approach-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path fill="#9333ea" d="M19 3h-4.18C14.4 1.84 13.3 1 12 1s-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm7 16H5V5h2v3h10V5h2v14z"/>
+                            <path fill="#9333ea" d="M8 8h8v2H8zm0 4h5v2H8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="approach-title">Tratamento Individualizado</h3>
+                    <div class="approach-content">
+                        <p>Cada pessoa tem uma história única com a dor. Nosso tratamento considera aspectos físicos, emocionais e sociais, adaptando-se às necessidades específicas de cada paciente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section class="contact-section" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Entre em Contato</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <p class="section-intro-black">Agende sua consulta ou tire suas dúvidas sobre nossos tratamentos.</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <ul class="contact-list">
+                        <li>
+                            <div class="contact-details">
+                                <div class="contact-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#6d28d9">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-content">
+                                    <strong>Endereço</strong>
+                                    <p>Rua Comandante Rubens Silva, 292<br>
+                                    Sala 401 - Freguesia<br>
+                                    Jacarepaguá - Rio de Janeiro, RJ</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-details">
+                                <div class="contact-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#6d28d9">
+                                        <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-content">
+                                    <strong>Telefone</strong>
+                                    <p>(21) 99753-0137</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-details">
+                                <div class="contact-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#6d28d9">
+                                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-content">
+                                    <strong>E-mail</strong>
+                                    <p>contato@fisionocko.com.br</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-details">
+                                <div class="contact-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#6d28d9">
+                                        <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-content">
+                                    <strong>Horário de Funcionamento</strong>
+                                    <p>Segunda a Sexta: 8h às 20h<br>
+                                    Sábado: 8h às 12h</p>
+                                </div>
+                            </div>
+                            
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nome completo</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Serviço de interesse</label>
+                            <select id="service" required>
+                                <option value="" disabled selected>Selecione uma opção</option>
+                                <option value="dor-cronica">Tratamento para Dor Crônica</option>
+                                <option value="traumato">Traumato-ortopedia</option>
+                                <option value="esportiva">Fisioterapia Esportiva</option>
+                                <option value="escoliose">Tratamento para Escoliose</option>
+                                <option value="escoliose">Outro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" rows="4" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Enviar mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Como Chegar -->
+    <section class="location-section">
+        <div class="location-header">
+            <div class="container">
+                <h2>Como chegar</h2>
+                <p class="address">Rua Comandante Rubens Silva, 292, Sala 401 - Freguesia, Jacarepaguá - Rio de Janeiro, RJ</p>
+            </div>
+        </div>
+        
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7564.002503613734!2d-43.34218558515508!3d-22.93788492450893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd825635ddac7%3A0xd52b61c75e88a6c1!2sR.%20Cmte.%20Rubens%20Silva%2C%20292%20-%20sala%20401%20-%20Freguesia%20(Jacarepagu%C3%A1)%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022745-282!5e0!3m2!1spt-BR!2sbr!4v1754952488326!5m2!1spt-BR!2sbr"
+                width="100%"
+                height="100%"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">Fisio<span>Nocko</span></div>
+                    <p class="footer-description">Fisioterapia especializada em dor crônica e reabilitação funcional, com foco na recuperação da autonomia e qualidade de vida.</p>
+                </div>
+
+                <div class="footer-links">
+                    <div>
+                        <h3 class="footer-title">Links Rápidos</h3>
+                        <ul>
+                            <li><a href="#inicio">Início</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#especialidades">Especialidades</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-social">
+                    <div>
+                        <h3 class="footer-title">Redes Sociais</h3>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/fisionocko" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/patynocko" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://wa.me/5521997530137" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <p>© 2023 FisioNocko. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
