@@ -29,13 +29,21 @@ header > div {
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #fff;
+    height: 50px; /* Altura fixa para o container */
+    display: flex;
+    align-items: center;
 }
 
-.logo span {
-    color: #9333ea;
+.logo img {
+    height: 200%; /* Altura 100% do container */
+    width: auto; /* Largura proporcional */
+    max-width: 180px; /* Largura máxima */
+    object-fit: contain; /* Mantém proporções */
+    transition: transform 0.3s ease; /* Efeito hover suave */
+}
+
+.logo:hover img {
+    transform: scale(1.05); /* Efeito de zoom leve ao passar mouse */
 }
 
 .mobile-menu-toggle {
@@ -296,11 +304,6 @@ nav ul li a:hover::after {
     align-items: center;
     justify-content: center;
     margin: 0 auto 1rem;
-}
-
-.specialty-icon svg {
-    width: 24px;
-    height: 24px;
 }
 
 .specialty-name {
@@ -652,14 +655,23 @@ nav ul li a:hover::after {
     margin: 0 auto 2rem;
 }
 
-.footer-logo {
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
+.footer-brand {
+    position: relative;
+    bottom: 45px;
 }
 
-.footer-logo span {
-    color: #a855f7;
+.footer-logo {
+    height: 60px; /* Altura do container do logo */
+    margin-bottom: 1.5rem;
+    display: inline-block; /* Para não ocupar toda a largura */
+}
+
+.footer-logo img {
+    height: 200%; /* Ocupa toda a altura do container */
+    width: auto; /* Mantém proporções */
+    max-width: 200px; /* Largura máxima */
+    object-fit: contain; /* Garante que a imagem inteira será visível */
+    filter: brightness(0) invert(1); /* Opcional: converte para branco se necessário */
 }
 
 .footer-description {
@@ -754,6 +766,11 @@ nav ul li a:hover::after {
     .social-icons {
         justify-content: center;
     }
+
+    .footer-brand {
+        position: relative;
+        bottom: 20px;
+    }
 }
 
 /* Responsividade */
@@ -815,9 +832,6 @@ nav ul li a:hover::after {
 
     .specialties-container {
         padding: 0;
-    }
-    .specialty-card {
-        width: 20rem;
     }
 }
 
